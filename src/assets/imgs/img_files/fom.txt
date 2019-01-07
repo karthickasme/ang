@@ -1,0 +1,30 @@
+<form action="D:\corpus\format\work\webeg.html" method="post">
+Username:<br>
+<input type="text" name="uname">
+<fieldset>
+<legend style="color:blue;text-align:center;">personal details</legend>
+<h1>personal details</h1>
+uname<br>
+<input type="text" name="un" required><br>
+password<br>
+<input type="password" name="pwd" placeholder="enter strong password"><br>
+age<br>
+<input type="text" name="ag" autofocus><br>
+</fieldset>
+choose color
+<input type="color" name="cr"><br>
+enter email
+<input type="email" name="email"><br>
+enter string
+<input type="search" name="sr"><br>
+enter url
+<input type="url" name="url" value="https://www.naukri.com" disabled><br>
+enter no
+<input type="number" name="no"><br>
+enter no
+1<input type="range" name="rg">10<br>
+<button type="submit" formaction="D:\corpus\format\work\fix.html">sub as admin</button>
+<input type="submit" value="sub as user" formaction="D:\corpus\format\work\fix.html">
+<button type="button" formaction="D:\corpus\format\work\fix.html">click</button>
+<input type="submit" value="sub as employee" readonly>
+<input type="image" src="D:\corpus\img_files\submit.jpeg" formaction="D:\corpus\format\work\fix.html"width="100px" height="50px" formnovalidate formmethod="get">
